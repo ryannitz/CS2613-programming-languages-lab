@@ -1,0 +1,7 @@
+#lang racket
+(define (my-length lst)
+ (define (iter lst len)
+ (cond
+ [(empty? ---) ---]
+ [else (iter (---) (+ len 1))]))
+ (iter lst 0)) 

@@ -1,0 +1,14 @@
+{
+  "name": "trial-test-package",
+  "version": "1.0.0",
+  "description": "This is my trial-test-package set up via npm init",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^4.0.2"
+  }
+}

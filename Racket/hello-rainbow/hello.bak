@@ -1,0 +1,19 @@
+#lang slideshow
+(define (my-map f lst)
+  (cond
+    [(empty? lst) empty]
+    [else (cons (f (first lst))
+                (my-map f (rest lst)))]))
+
+
+
+
+
+
+
+(define (my-rainbow p)
+ ;this is the function you need to write
+ (define (color-mapper p color-list)
+
+ ;this is the call to the function you write
+ ;(color-mapper p (list "red" "orange" "yellow" "green" "blue" "purple")))
